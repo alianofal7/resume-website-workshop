@@ -1,76 +1,121 @@
-<html>
-	<head>
-		<link href="style.css" rel="stylesheet">
-		<title>Your name resume</title>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-	</head>
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>CV - Alia Nofal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
 
-	<body>
-		<header id="header">
-			<!-- resume header with your name and title -->
-			<h1><b>YOUR</b> NAME</h1>
-			<hr>
-			YOUR TITLE
-			<hr>
-		</header>
-		<main>
-			<article id="mainLeft">
-				<section>
-					<h2>CONTACT</h2>
-					<!-- contact info including social media -->
-                    <p>
-                        <i class="fa fa-envelope" aria-hidden="true"></i>
-                        <a href="mailto:your-email@example.com">your-email@example.com</a>
-                    </p>
-                    <p>
-                        <i class="fab fa-github" aria-hidden="true"></i>
-                        <a href="github.com/gh-username">gh-username</a>
-                    </p>
-                    <p>
-                        <i class="fab fa-linkedin" aria-hidden="true"></i>
-                        <a href="linkedin.com/linkedin-username">linkedin-username</a>
-                    </p>
-				</section>
-				<section>
-					<h2>SKILLS</h2>
-					<!-- your skills AKA "buzzwords" -->
-                    <p>HTML, CSS, GitHub, VS Code...</p>
-				</section>
-				<section>
-					<h2>EDUCATION</h2>
-					<!-- your education -->
-                    <b>YOUR MAJOR</b>
-                    <p>
-                        Your university or school
-                    </p>
-                    <p>
-                        2018-2022
-                    </p>
-				</section>            
-			</article>
-			<article id="mainRight">
-				<section>
-					<h2>ABOUT</h2>
-					<!-- about you -->
-					<p>A brief paragraph about you and what kind of company you want to work for.</p>
-				</section>
-				<section>
-					<h2>WORK EXPERIENCE</h2>
-					<!-- your work experience -->
-                    <h3><b>JOB TITLE</b></h3>
-                    <p>
-                            Company Name | 2008 - 2010
-                    </p>
-                    <p>
-                            Describe what you did in this position with one summary sentence and no more than 3 bullet points with specific highlights
-                    </p>
-                    <ul>
-                            <li>Cool accomplishment</li>
-                            <li>Cool accomplishment</li>
-                            <li>Cool accomplishment</li>
-                    </ul>
-				</section>
-			</article>
-		</main>
-	</body>
+<body>
+
+<div class="cv-container">
+
+    <!-- HEADER -->
+    <header class="cv-header">
+        <h1 class="nom-prenom">Alia Nofal</h1>
+        <h2 class="poste">Étudiante en Bio-Info</h2>
+
+        <div class="contact">
+            <p>(+33) 7 43 57 76 49</p>
+            <p>(+20) 0100 090-3150</p>
+            <p>alia.nofal@etud.univ-evry.fr</p>
+        </div>
+    </header>
+
+    <!-- COLONNES -->
+    <div class="contenu-principal">
+
+        <!-- COLONNE GAUCHE -->
+        <div class="colonne-gauche">
+
+            <section class="section-experience">
+                <h3>Expérience</h3>
+
+                <div class="experience-item">
+                    <h4>Schneider Electric, Le Caire — Stagiaire</h4>
+                    <p class="date">Été 2023 – 2024</p>
+                    <p>Stage d’été dans différents départements : marketing et ventes.</p>
+                </div>
+
+                <div class="experience-item">
+                    <h4>Model United Nations — Secrétaire Général</h4>
+                    <p class="date">Depuis 2023</p>
+                    <p>Organisation et direction d’une conférence MUN.</p>
+                </div>
+
+                <div class="experience-item">
+                    <h4>ASC Alexandrie — Assistante entraîneuse / Juge</h4>
+                    <p class="date">2022 – 2025</p>
+                </div>
+
+                <div class="experience-item">
+                    <h4>Madinat Masr Developments — Stagiaire</h4>
+                    <p class="date">Juin 2022 – Août 2022</p>
+                </div>
+
+            </section>
+
+            <section class="section-projets">
+                <h3>Projets</h3>
+
+                <div class="projet-item">
+                    <h4>Modélisation de la submersion côtière</h4>
+                    <p>Application de modèles mathématiques pour prévoir la submersion d’Alexandrie.</p>
+                </div>
+
+                <div class="projet-item">
+                    <h4>Adaptations génétiques (AMY1, porphyranase)</h4>
+                    <p>Étude des mécanismes de sélection génétique chez les populations japonaises.</p>
+                </div>
+
+                <div class="projet-item">
+                    <h4>Estimation médico-légale de l’heure de la mort</h4>
+                    <p>Analyse thermométrique et modélisation mathématique post-mortem.</p>
+                </div>
+
+            </section>
+
+        </div>
+
+        <!-- COLONNE DROITE -->
+        <div class="colonne-droite">
+
+            <section class="section-competences">
+                <h3>Compétences</h3>
+                <ul>
+                    <li>Python, R, C</li>
+                    <li>HTML / CSS</li>
+                    <li>Résolution de problèmes</li>
+                    <li>Leadership</li>
+                    <li>Rédaction scientifique</li>
+                </ul>
+            </section>
+
+            <section class="section-recompenses">
+                <h3>Récompenses</h3>
+                <ul>
+                    <li>7x Championne nationale de gymnastique</li>
+                    <li>Lauréate Printemps des Poètes</li>
+                    <li>Double championne Spelling Bee</li>
+                </ul>
+            </section>
+
+            <section class="section-langues">
+                <h3>Langues</h3>
+                <p>Arabe, Français, Anglais, Espagnol, notions de Russe</p>
+            </section>
+
+            <section class="section-education">
+                <h3>Éducation</h3>
+                <p>Université Paris-Saclay – LDD SDV-INFO</p>
+                <p>Lycée Balzac, Le Caire – Bac français</p>
+            </section>
+
+        </div>
+
+    </div>
+
+</div>
+
+</body>
 </html>
